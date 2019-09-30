@@ -1,7 +1,87 @@
-h1{ 
-  text-align:center;
+body {
+	background-color: #4285F4;;
+}
+h1{
+  font-size: 2.8em;
+  text-align: center;
+ 	margin: 8px;
+	padding-top: 2em;
+}
+p{
+	text-align: center;
+	font-size: 1.67em;
+	color: red;
+	margin: 8px;
+}
+label {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
 }
 
-p{ 
-  text-align:center;
+input {
+	width: 95%;
+	padding: 20px 20px;
+	margin: 8px 0;
+	margin-left: .7em;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+#fontsize {
+	font-size: 1.3em;
+}
+input[type=submit]{
+	font-size: 1.1em
+}
+img{
+	
+}
+
+@media screen and (max-width: 480px) {
+#container {
+
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	}
+
+	h1 {
+	font-size: 1.67em;
+	}
+
+	p {
+	font-size: .84em;
+	color: black;
+	}
+
+	label {
+	font-size: 1.2em;
+	}
+
+	input {
+	width: 60%;
+	}
+
+	#submit {
+	width: 35%;
+	display: block;
+	margin: auto;
+	font-size: 0.8em;
+	}
+}
+img{
+	float: right;
+}
+@media screen and (min-width: 960px) {
+  #container {
+		background-color: black;
+    width:90%;
+    float: right;		
+  }
+  
+  input[type=submit]{
+	width: 26%
+  }
 }
