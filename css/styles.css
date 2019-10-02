@@ -1,12 +1,13 @@
 body {
 	background-color: #4285F4;
-	background-image: url("media/Screenshot (66).png")
+	background-image: url("media/Formimage.png")
 }
 h1{
   font-size: 2.8em;
   text-align: center;
- 	margin: 8px;
-	padding-top: 2em;
+	margin: 8px;
+	padding-top: .5em;
+	
 }
 p{
 	text-align: center;
