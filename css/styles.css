@@ -1,6 +1,6 @@
 body {
 	background-color: #4285F4;
-	background-image: url("media/Formimage.png")
+	background-image: url("media/snow_boarder.png")
 }
 h1{
   	font-size: 1.8em;
@@ -62,7 +62,6 @@ img{
 
 	@media screen and (min-width: 480px) {
   #container {
-
 	width: 60%;
 	text-align: center;
 	margin: auto;
@@ -92,16 +91,11 @@ img{
 	font-size: 0.8em;
 	}
 }
-img{
-	float: right;
-  }
-}
 
 @media screen and (min-width: 960px) {
-  #container {
+  body {
     background-color: green;
-    width:90%;
-    float: right;		
+    width:95%;
   }
   
   input[type=submit]{
