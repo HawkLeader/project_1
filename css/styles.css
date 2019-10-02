@@ -90,15 +90,17 @@ img{
 	margin: auto;
 	font-size: 0.8em;
 	}
-}
 
 @media screen and (min-width: 960px) {
   body {
-    background-color: green;
+    background-color: #4285F4;
     width:95%;
   }
   
   input[type=submit]{
-	width: 26%;
+    width: 26%;
+  }
+h1{
+    display: -webkit-inline-flex;
   }
 }
