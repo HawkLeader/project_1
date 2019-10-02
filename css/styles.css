@@ -3,10 +3,11 @@ body {
 	background-image: url("media/Formimage.png")
 }
 h1{
-  font-size: 2.8em;
-  text-align: center;
+  	font-size: 1.8em;
+  	text-align: center;
 	margin: 8px;
 	padding-top: .5em;
+	font-family: 'Cinzel', serif;
 	
 }
 p{
@@ -36,27 +37,25 @@ input[type=submit]{
 
 }
 input[type=tel]{
-	font-size: 2.2em;
+	font-size: 1.2em;
 	font-family: 'Cinzel', serif;
 }
 
 input[type=password]{
-	font-size: 2.2em;
+	font-size: 1.2em;
 	font-family: 'Cinzel', serif;
 }
 
 input[type=email]{
-	font-size: 2.2em;
+	font-size: 1.2em;
 	font-family: 'Cinzel', serif;
 }
 
 input[type=text]{
-	font-size: 2.2em;
+	font-size: 1.2em;
 	font-family: 'Cinzel', serif;
 }
-input[type=submit]{
-	font-size: 1.1em;
-}
+
 img{
 	display: none;
 }
