@@ -60,15 +60,15 @@ img{
 	display: none;
 }
 
-	@media screen and (min-width: 480px) {
-  #container {
+@media screen and (min-width: 480px) {
+  	#container {
 	width: 60%;
 	text-align: center;
 	margin: auto;
 	}
 
 	h1 {
-	font-size: 1.67em;
+		display: none;
 	}
 
 	p {
