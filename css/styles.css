@@ -30,11 +30,30 @@ input {
 	border-radius: 6px;
 	box-sizing: border-box;
 }
+input[type=submit]{
+	font-size: 2.2em;
+	font-family: 'Cinzel', serif;
 
-#fontsize {
-	font-size: 1.3em;
+}
+input[type=tel]{
+	font-size: 2.2em;
+	font-family: 'Cinzel', serif;
 }
 
+input[type=password]{
+	font-size: 2.2em;
+	font-family: 'Cinzel', serif;
+}
+
+input[type=email]{
+	font-size: 2.2em;
+	font-family: 'Cinzel', serif;
+}
+
+input[type=text]{
+	font-size: 2.2em;
+	font-family: 'Cinzel', serif;
+}
 input[type=submit]{
 	font-size: 1.1em;
 }
