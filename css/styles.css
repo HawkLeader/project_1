@@ -50,31 +50,31 @@ input[type="tel"] {
   font-family : 'Cinzel', serif;
 }
 @media screen and (min-width: 480px) {
-    #container {
-      width : 60%;
-      text-align : center;
-      margin : auto;
-    }
-      h1 {
-      display : none;
-    }
-      p {
-      font-size : 0.84em;
-      color : black;
-    }
-      label {
-      font-size : 1.2em;
-    }
-      input {
-      width : 60%;
-    }
-    #submit {
-      width : 35%;
-      display : block;
-      margin : auto;
-      font-size : 0.8em;
-    }
+  #container {
+    width : 60%;
+    text-align : center;
+    margin : auto;
   }
+    h1 {
+    display : none;
+  }
+    p {
+    font-size : 0.84em;
+    color : black;
+  }
+    label {
+    font-size : 1.2em;
+  }
+    input {
+    width : 60%;
+  }
+  #submit {
+    width : 35%;
+    display : block;
+    margin : auto;
+    font-size : 0.8em;
+  }
+}
 @media screen and (min-width: 960px) {
   body {
     background-color : #4285F4;
