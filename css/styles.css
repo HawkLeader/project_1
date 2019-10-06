@@ -1,89 +1,86 @@
 body {
-background-color : #4285F4;
-background-image : url("media/snow_boarder.png");
+  background-color : #4285F4;
+  background-image : url("media/snow_boarder.png");
 }
 h1 {
-font-size : 1.8em;
-text-align : center;
-margin : 8px;
-padding-top : 0.5em;
-font-family : 'Cinzel', serif;
+  font-size : 1.8em;
+  text-align : center;
+  margin : 8px;
+  padding-top : 0.5em;
+  font-family : 'Cinzel', serif;
 }
 p {
-text-align : center;
-font-size : 1.67em;
-color : red;
-margin : 8px;
+  text-align : center;
+  font-size : 1.67em;
+  color : red;
+  margin : 8px;
 }
 label {
-display : block;
-text-align : center;
-font-size : 1.5em;
+  display : block;
+  text-align : center;
+  font-size : 1.5em;
 }
 input {
-width : 95%;
-padding : 20px 20px;
-margin : 8px 0;
-margin-left : 0.35em;
-border : #ccc solid 1px;
-border-radius : 6px;
-box-sizing : border-box;
+  width : 95%;
+  padding : 20px 20px;
+  margin : 8px 0;
+  margin-left : 0.35em;
+  border : #ccc solid 1px;
+  border-radius : 6px;
+  box-sizing : border-box;
 }
 input[type="submit"] {
-font-size : 2.2em;
-font-family : 'Cinzel', serif;
+  font-size : 2.2em;
+  font-family : 'Cinzel', serif; 
 }
 input[type="tel"] {
-font-size : 1.2em;
-font-family : 'Cinzel', serif;
+  font-size : 1.2em;
+  font-family : 'Cinzel', serif;
 }
-input[type="password"] {
-font-size : 1.2em;
-font-family : 'Cinzel', serif;
+  input[type="password"] {
+  font-size : 1.2em;
+  font-family : 'Cinzel', serif;
 }
-input[type="email"] {
-font-size : 1.2em;
-font-family : 'Cinzel', serif;
+  input[type="email"] {
+  font-size : 1.2em;
+  font-family : 'Cinzel', serif;
 }
-input[type="text"] {
-font-size : 1.2em;
-font-family : 'Cinzel', serif;
-}
-img {
-display : none;
-}
+  input[type="text"] {
+  font-size : 1.2em;
+  font-family : 'Cinzel', serif;
+
 @media screen and (min-width: 480px) {
-#container {
-width : 60%;
-text-align : center;
-margin : auto;
-}
-h1 {
-display : none;
-}
-p {
-font-size : 0.84em;
-color : black;
-}
-label {
-font-size : 1.2em;
-}
-input {
-width : 60%;
-}
-#submit {
-width : 35%;
-display : block;
-margin : auto;
-font-size : 0.8em;
-}
-}
+    #container {
+      width : 60%;
+      text-align : center;
+      margin : auto;
+    }
+      h1 {
+      display : none;
+    }
+      p {
+      font-size : 0.84em;
+      color : black;
+    }
+      label {
+      font-size : 1.2em;
+    }
+      input {
+      width : 60%;
+    }
+    #submit {
+      width : 35%;
+      display : block;
+      margin : auto;
+      font-size : 0.8em;
+    }
+  }
 @media screen and (min-width: 960px) {
-body {
-background-color : #4285F4;
-width : 95%;
-}
-input[type="submit"] {
-width : 26%;
-}
+  body {
+    background-color : #4285F4;
+    width : 95%;
+  }
+  input[type="submit"] {
+    width : 26%;
+  }
 }
