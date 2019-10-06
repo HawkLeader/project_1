@@ -2,7 +2,7 @@ body {
 	background-color: #4285F4;
 	background-image: url("media/snow_boarder.png")
 }
-h1{
+h1 {
   	font-size: 1.8em;
   	text-align: center;
 	margin: 8px;
@@ -10,7 +10,7 @@ h1{
 	font-family: 'Cinzel', serif;
 	
 }
-p{
+p {
 	text-align: center;
 	font-size: 1.67em;
 	color: red;
@@ -56,10 +56,6 @@ input[type=text]{
 	font-family: 'Cinzel', serif;
 }
 
-img{
-	display: none;
-}
-
 @media screen and (min-width: 480px) {
   	#container {
 	width: 60%;
@@ -99,8 +95,5 @@ img{
   
   input[type=submit]{
     width: 26%;
-  }
-h1{
-    
   }
 }
