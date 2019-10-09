@@ -71,7 +71,7 @@ input[type="tel"] {
   #submit {
     width : 35%;
     display : block;
-    margin : auto;
+    margin-top: auto;
     font-size : 0.8em;
   }
 }
